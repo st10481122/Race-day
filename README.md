@@ -21,4 +21,9 @@ About race day
 19. Add SQL seed data and constraints
 20. Add CI build screenshot
 21. Add YouTube presentation link
+22. The RaceDay Part 1 project presentation is available on YouTube:
+
+[Watch the RaceDay Part 1 Presentation]
+https://youtu.be/3bmEgH5MfeU?si=NtI5qgF45-1iQ3hm
+
 
