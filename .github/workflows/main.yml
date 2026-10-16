@@ -1,0 +1,11 @@
+- name: Tesults API results check
+  # You may pin to the exact commit or the version.
+  # uses: tesults/tesults-api-results-check@00332d307cb108d21aedb635008bc7409c5f932a
+  uses: tesults/tesults-api-results-check@1.0.6
+  with:
+# Target Id
+    target: # default is -
+    # Build name
+    build: # default is -
+    # API token
+    api_token: # default is -
