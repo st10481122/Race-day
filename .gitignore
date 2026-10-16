@@ -1,0 +1,19 @@
+# Build output
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Local settings and secrets
+appsettings.Development.json
+secrets.json
+
+# Test results
+TestResults/
+*.trx
+
