@@ -100,3 +100,47 @@ The API endpoints should be tested using Swagger, including successful requests,
 Do not commit real passwords, production signing keys, access tokens or other secrets to GitHub. Use local development configuration or a suitable secret-management solution.
 
 
+PART 3 POE
+
+1. RaceDay is a web-based event management system developed to manage running, walking and cycling events. 
+
+2. The system is designed to make event management easier for organisers and participants. 
+
+3. RaceDay provides two main user roles, which are Event Organiser and Participant. 
+
+4. Event organisers can register and log into the system using their account details. 
+
+5. Participants can also create accounts and log into the application. 
+
+6. The system provides different dashboards based on the user's role. 
+
+7. Organisers can create new sporting events and manage existing events. 
+
+8. Organisers can update event information such as the event name, date, description and location. 
+
+9. Organisers can create and manage different event categories. 
+
+10. Participants can browse available upcoming sporting events. 
+
+11. Participants can view event information and available categories. 
+
+12. Participants can enrol in events by selecting their preferred category. 
+
+13. Participants can view their event enrolments and payment statuses. 
+
+14. Organisers can view the participants registered for their events. 
+
+16. Organisers can enter participant finishing times and race positions. 
+
+17. Participants can view their published race results and performance history. 
+
+18. Users can view and update their personal profile information. 
+
+19. The system uses an ASP.NET Core Web API to communicate with the SQL Server database. 
+
+20. The MVC application is developed using C#, .NET 8, Bootstrap and Docker. 
+
+21. RaceDay is developed as part of an academic project to demonstrate database development, API integration and web application development. 
+
+ 
+
