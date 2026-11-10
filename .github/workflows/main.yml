@@ -9,3 +9,32 @@
     build: # default is -
     # API token
     api_token: # default is -
+
+
+
+name: RaceDay MVC Build
+
+on:
+  push:
+    branches: [ "main", "part3-mvc" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore MVC
+        run: dotnet restore RaceDay.MVC/RaceDay.MVC.csproj
+
+      - name: Build MVC
+        run: dotnet build RaceDay.MVC/RaceDay.MVC.csproj --configuration Release --no-restore
